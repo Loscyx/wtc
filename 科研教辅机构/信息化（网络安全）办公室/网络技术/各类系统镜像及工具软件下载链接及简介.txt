@@ -1,0 +1,46 @@
+各类系统镜像及工具软件下载链接及简介
+http://msdn.itellyou.cn/
+MSDN - 简介
+
+MSDN图册
+MSDN 的全称是 Microsoft Developer Network。这是
+微软
+公司面向软件开发者的一种信息服务。
+一般情况下，很多人误认为 MSDN 为联机帮助文件和技术文献的集合。但事实上，这两者只占 MSDN 庞大计划的一小部分。MSDN 实际上是一个以
+Visual Studio
+和
+Windows
+平台为核心整合的开发虚拟社区，包括技术文档、在线电子教程、网络虚拟实验室、微软产品下载（几乎全部的操作系统、服务器程序、应用程序和开发程序的正式版和测试版，还包括各种驱动程序开发包和软件开发包）、
+Blog
+、
+BBS
+、MSDN
+webcast
+、与 CMP 合作的 MSDN 杂志等等一系列服务。
+其中产品下载、在线电子教程、MSDN 杂志和技术紧急电话支援是要付费的，其余基本免费。当然， MSDN 杂志可以通过微软公司的网站免费观看或者下载（
+http://msdn.microsoft.com/msdnmag/
+）
+MSDN 涵盖了所有的可以被开发扩充的平台和应用程序，因此如微软公司的百科全书 Encarta，或者是各种游戏，是不包括在 MSDN 之内的，因为这些产品直接面向最终用户，没有进行程序开发的必要。
+
+MSDN - msdn library
+用户接触到的最多关于 MSDN 的信息可能是来自于 MSDN Library。MSDN Library 就是通常人们眼中的 MSDN，涵盖了微软全套可开发产品线的技术开发文档和科技文献（部分包括源代码），也包括过刊的 MSDN 杂志节选和部分经典书籍的节选章节。MSDN Library 有 1.8 GB 左右，可以通过在线或者 MSDN 订阅（需付费）以脱机方式浏览。在线浏览的链接为。
+每个时期，随着不同版本 Visual Studio 发布的时候，都会有对应的 MSDN Library 发布，而从最新版的 Visual Studio 发布之后，对应旧版本 Visual Studio 的 MSDN Library 会慢慢停止发布， 仅随该 Visual Studio 发布的 MSDN Library 以及后续的 MSDN Library 更新才可以被整合到最新版本的 Visual Studio 中。
+MSDN - MSDN Subscription
+真正意义上的 MSDN 指的是 MSDN Subscription（MSDN 订阅）。这是一种付费订阅服务，可以将微软几乎所有可开发软件以开发为目的使用，包括各种操作系统和应用程序，还有各种企业服务器，MSDN Library也是订阅的一部分。 同时可以得到微软公司的紧急电话技术支持服务以及使用 MSDN Blog。
+MSDN 订阅的用户根据权限不同，可以使用不同等级的 MSDN 服务。MSDN 订阅等级不是一成不变的，随着 Visual Studio 2005 的发布，最新的 MSDN 版本具体的订阅等级如下：
+Visual Studio 2005 Team Suite with MSDN Premium Subscription （包含所有的 Team Edition）
+Visual Studio 2005 Team Edition for Software Architects with MSDN Premium Subscription
+Visual Studio 2005 Team Edition for Software Developers with MSDN Premium Subscription
+Visual Studio 2005 Team Edition for Software Testers with MSDN Premium Subscription
+Visual Studio 2005 Team Edition for Database Professional with MSDN Premium Subscription （已经于 2006/11/31 发布）
+Visual Studio 2005 Professional Edition with MSDN Premium Subscription
+Visual Studio 2005 Professional Edition with MSDN Professional Subscription
+Microsoft Operating Systems Subscription
+MSDN - Microsoft Library Subscription
+MSDN 的订阅以年为单位，最少一年。最低级的 MSDN Library 用户每季度会定期收到微软寄到府上的 Library 更新。这个级别以上的用户会在订阅生效后收到微软寄送的 Welcome Kit（MSDN Premium Subscription 用户的 Welcome Kit 包括大约 60 张 DVD 光盘）。必须同时还可以登录 http://msdn.microsoft.com/subscriptions/ 下载所需软件。而且每个月会收到微软寄送的软件和文档更新。
+对于 Visual Studio 本身来说，Team Edition 以及以上级别的 Visual Studio 在零售渠道必须同 MSDN Premium 同时购买，不可以单独购买。通过零售渠道，用户只可以单独购买没有 MSDN 订阅的 Visual Studio Professional。
+如果想要订阅MSDN，请参看 http://msdn.microsoft.com/vstudio/howtobuy/。
+需要注意的是：MSDN 订阅提供的各种产品，除了 Office 系列以外，包括 Windows、SQL Server 在内的其它产品，是不可以用作商业用途的，仅以开发和测试为目的。
+目前微软停止了 CD 版本 MSDN 的订阅。仅可以选择 DVD 订阅。而在国内，微软推出了以硬盘为介质的 MSDN 订阅，用户只需将硬盘连接互联网上，内置软件会自动下载最新更新，方便得很。
+另外，从明年一月开始，对应不同等级的 MSDN 订阅，微软会推出仅可以下载使用的 MSDN Direct 订阅，意味着除了授权书会被邮寄以外，用户只能登录微软的 MSDN 网站下载所需的软件以及序列号。所需的 CD/DVD 由用户自行刻录，当然费用也就自理了。同时，由于没有介质和运输成本，MSDN Direcct 比目前同等级的订阅大约会便宜 15%——30% （参考目前仅限于下载使用的 TechNet Direct Plus 订阅和传统的邮寄式的 TechNet Plus 订阅的售价，MSDN Direct 也会便宜很多）。
+目前 MSDN Direct 实际在北美已经开始发售，欧洲、中亚、非洲区域会于明年年初发售，国内近期没有迹象。

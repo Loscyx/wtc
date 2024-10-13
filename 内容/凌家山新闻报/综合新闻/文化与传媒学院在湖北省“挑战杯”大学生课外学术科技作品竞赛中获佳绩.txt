@@ -1,0 +1,539 @@
+文化与传媒学院在湖北省“挑战杯”大学生课外学术科技作品竞赛中获佳绩
+
+
+
+
+
+武职网讯（通讯员
+
+王春艳
+
+陈浩然）
+6
+月
+8
+日
+至
+9
+日，由团省委、省科协、省教育厅、省学联主办的省第十一届“挑战杯”大学生课外学术科技作品竞赛终审决赛在华中农业大学落幕。我校文化与传媒学院学生喜获二等奖
+2项
+，三等奖
+3项
+。
+
+
+文化与传媒学院获得两项二等奖
+
+
+团队合影
+
+省赛场上，脱颖而出
+
+“挑战杯”大学生课外学术科技作品竞赛被誉为中国大学生学术科技“奥林匹克”，旨在鼓励大学生勇于创新、迎接挑战的精神，培养跨世纪创新人才。赛事分为校级、省级和国家级。赛项分为科技发明制作、自然科学类学术论文、哲学社会科学调查报告和学术论文等三大类。
+
+4
+月初，校团委根据作品的创新性、实用性和严谨性等标准，选送我校文化与传媒学院
+6
+件哲学社会科学调查报告作品参加省赛。
+5
+月上旬，经省专家评委书面评审，王春艳、罗清萍等老师指导的《微媒体背景下，你的价值取向动摇了吗？
+——
+以
+A
+职业技术学院为例调查微媒体对高职学生价值取向的影响》及《湖北高职大学生创业困境现状及其创业胜任力培养调查
+——
+以湖北
+9
+所高职院校的创业学生为典型调查》两件作品有幸入围代表学校参加终审决赛。
+
+
+决赛舞台，绽放青春
+
+6
+月
+8
+日，在终审决赛现场，来自
+72所
+高校的
+693
+件作品参加角逐。在现场问辩中，面对本科生、研究生等竞争对手，我校文化与传媒学院
+2
+个团队的
+4
+名选手，详尽回答了评委关于立意、研究方法和创新点等方面的问题，受到专家评委好评，两件入围作品双双荣获二等奖。
+
+以赛促教，改革有方
+
+近年来，文化与传媒学院非常重视学生的创新创业培养工作，希望通过“以赛促教”方式，提高老师的教学能力、科研能力和学生的创新创业能力。为此，从
+2015
+年开始，文化与传媒学院在“创青春”、“挑战杯”和“互联网
++
+创新创业大赛”等大赛中屡创佳绩。
+2017
+年
+2
+月，该院以公关与行管教研室作为试点，把专业毕业论文指导和大赛相合起来，避免了毕业论文抄袭、质量低的现状，有效提高了人才培养质量。
+
+
+
+
+
+
+
+
+
+
+武职校报
+
+更多>>
+
+
+
+
+
+
+
+
+var w14imgJsons = [
+    
+        
+            {
+            "src" : "/_upload/article/images/e5/02/165ccd4d4527a3be0acca6639bfe/079035c5-ae46-4d96-b787-b6b00a469662.jpg",
+            "url" : "/_redirect?siteId=28&columnId=347&articleId=2766"
+            }];
+
+var w14imgUrl = new Array();
+        var w14imgLink = new Array();
+
+        var w14count = 0;
+        var w14running = false;
+        var w14index = 0;
+        var w14nextAdTimer;
+        var w14k = 0;
+        function w14nextAd(num) {
+            if (num >= 0 && num <= w14count - 1) {
+                w14index = num;
+                clearTimeout(w14nextAdTimer);
+            } else {
+                num = w14index;
+            }
+            if (w14index > w14count - 1) {
+                w14index = 0;
+            }
+            if (!w14running) {
+                w14running = true;
+
+            } else if (document.all) {
+                w14imgShow.filters.revealTrans.Transition = 50;
+                w14imgShow.filters.revealTrans.apply();
+                w14imgShow.filters.revealTrans.play();
+            }
+            document.getElementById('w14imgShow').src = w14imgUrl[w14index];
+            document.getElementById('w14imgNumber').innerHTML = "";
+            w14k = 0;
+            for (var i = 0; i < w14count; i++) {
+                w14k++;
+                if (i !== w14index) {
+                    document.getElementById('w14imgNumber').innerHTML += '<a href="javascript:w14nextAd(' + i + ')" class="nomal">' + w14k + '</a>';
+                } else {
+                    document.getElementById('w14imgNumber').innerHTML += '<a href="javascript:w14nextAd(' + i + ')" class="current">' + w14k + '</a>';
+                }
+            }
+            w14index++;
+            if (w14count > 1) {
+                w14nextAdTimer = setTimeout("w14nextAd(-1)", 4000);
+            }
+        }
+
+        function w14openWindow() {
+            var jumpUrl = w14imgLink[w14index - 1];
+            if (jumpUrl && jumpUrl != '') {
+                window.open(jumpUrl);
+            }
+        }
+
+        $().ready(function() {
+            try {
+                var objs = w14imgJsons;
+                w14count = objs.length;
+                if (w14count == 0) {
+                    document.getElementById('w14imgShow').style.display = "none";
+                    document.getElementById('w14imgNumber').style.display = "none";
+                    return;
+                }
+                for (var i = 0; i < objs.length; i++) {
+                    w14imgUrl[i] = objs[i].src;
+                    w14imgLink[i] = objs[i].url;
+                }
+                w14nextAd(-1);
+            } catch (e) {
+            }
+        });
+
+
+
+
+
+
+
+
+
+武职影像
+
+更多>>
+
+
+
+
+
+
+
+
+var w15imgJsons = [
+    
+        
+            {
+            "src" : "/_upload/article/images/a2/fb/4dcc7be64cb48ef3ed9a0941a12d/285f08ae-d301-4abc-a042-d1f5dd0e0194_s.jpg",
+            "url" : "/2017/0825/c341a12743/page.htm"
+            }];
+
+var w15imgUrl = new Array();
+        var w15imgLink = new Array();
+
+        var w15count = 0;
+        var w15running = false;
+        var w15index = 0;
+        var w15nextAdTimer;
+        var w15k = 0;
+        function w15nextAd(num) {
+            if (num >= 0 && num <= w15count - 1) {
+                w15index = num;
+                clearTimeout(w15nextAdTimer);
+            } else {
+                num = w15index;
+            }
+            if (w15index > w15count - 1) {
+                w15index = 0;
+            }
+            if (!w15running) {
+                w15running = true;
+
+            } else if (document.all) {
+                w15imgShow.filters.revealTrans.Transition = 50;
+                w15imgShow.filters.revealTrans.apply();
+                w15imgShow.filters.revealTrans.play();
+            }
+            document.getElementById('w15imgShow').src = w15imgUrl[w15index];
+            document.getElementById('w15imgNumber').innerHTML = "";
+            w15k = 0;
+            for (var i = 0; i < w15count; i++) {
+                w15k++;
+                if (i !== w15index) {
+                    document.getElementById('w15imgNumber').innerHTML += '<a href="javascript:w15nextAd(' + i + ')" class="nomal">' + w15k + '</a>';
+                } else {
+                    document.getElementById('w15imgNumber').innerHTML += '<a href="javascript:w15nextAd(' + i + ')" class="current">' + w15k + '</a>';
+                }
+            }
+            w15index++;
+            if (w15count > 1) {
+                w15nextAdTimer = setTimeout("w15nextAd(-1)", 4000);
+            }
+        }
+
+        function w15openWindow() {
+            var jumpUrl = w15imgLink[w15index - 1];
+            if (jumpUrl && jumpUrl != '') {
+                window.open(jumpUrl);
+            }
+        }
+
+        $().ready(function() {
+            try {
+                var objs = w15imgJsons;
+                w15count = objs.length;
+                if (w15count == 0) {
+                    document.getElementById('w15imgShow').style.display = "none";
+                    document.getElementById('w15imgNumber').style.display = "none";
+                    return;
+                }
+                for (var i = 0; i < objs.length; i++) {
+                    w15imgUrl[i] = objs[i].src;
+                    w15imgLink[i] = objs[i].url;
+                }
+                w15nextAd(-1);
+            } catch (e) {
+            }
+        });
+
+
+
+
+
+
+
+
+
+视频播报
+
+更多>>
+
+
+
+
+
+
+
+
+var w16imgJsons = [
+    
+        
+            {
+            "src" : "/_upload/article/images/e0/31/250937ef44038a85872816f62994/fc80e93c-6854-4241-a1a7-7207a6f2ac40_s.png",
+            "url" : "/2024/0909/c342a120617/page.htm"
+            }];
+
+var w16imgUrl = new Array();
+        var w16imgLink = new Array();
+
+        var w16count = 0;
+        var w16running = false;
+        var w16index = 0;
+        var w16nextAdTimer;
+        var w16k = 0;
+        function w16nextAd(num) {
+            if (num >= 0 && num <= w16count - 1) {
+                w16index = num;
+                clearTimeout(w16nextAdTimer);
+            } else {
+                num = w16index;
+            }
+            if (w16index > w16count - 1) {
+                w16index = 0;
+            }
+            if (!w16running) {
+                w16running = true;
+
+            } else if (document.all) {
+                w16imgShow.filters.revealTrans.Transition = 50;
+                w16imgShow.filters.revealTrans.apply();
+                w16imgShow.filters.revealTrans.play();
+            }
+            document.getElementById('w16imgShow').src = w16imgUrl[w16index];
+            document.getElementById('w16imgNumber').innerHTML = "";
+            w16k = 0;
+            for (var i = 0; i < w16count; i++) {
+                w16k++;
+                if (i !== w16index) {
+                    document.getElementById('w16imgNumber').innerHTML += '<a href="javascript:w16nextAd(' + i + ')" class="nomal">' + w16k + '</a>';
+                } else {
+                    document.getElementById('w16imgNumber').innerHTML += '<a href="javascript:w16nextAd(' + i + ')" class="current">' + w16k + '</a>';
+                }
+            }
+            w16index++;
+            if (w16count > 1) {
+                w16nextAdTimer = setTimeout("w16nextAd(-1)", 4000);
+            }
+        }
+
+        function w16openWindow() {
+            var jumpUrl = w16imgLink[w16index - 1];
+            if (jumpUrl && jumpUrl != '') {
+                window.open(jumpUrl);
+            }
+        }
+
+        $().ready(function() {
+            try {
+                var objs = w16imgJsons;
+                w16count = objs.length;
+                if (w16count == 0) {
+                    document.getElementById('w16imgShow').style.display = "none";
+                    document.getElementById('w16imgNumber').style.display = "none";
+                    return;
+                }
+                for (var i = 0; i < objs.length; i++) {
+                    w16imgUrl[i] = objs[i].src;
+                    w16imgLink[i] = objs[i].url;
+                }
+                w16nextAd(-1);
+            } catch (e) {
+            }
+        });
+
+
+
+
+
+
+
+
+
+发稿统计
+
+更多>>
+
+
+
+
+
+排序
+投稿单位
+发稿数
+1
+党委宣传部
+120
+2
+外语外贸学院
+73
+3
+旅游与航空服务学院
+71
+4
+机电工程学院
+70
+5
+商学院
+70
+6
+纺织与服装工程学院
+67
+7
+计算机技术与软件工程学院
+62
+8
+电子信息工程学院
+59
+9
+团委
+50
+10
+艺术设计学院
+49
+11
+生物工程学院
+48
+12
+文化与传媒学院
+48
+13
+建筑工程学院
+28
+14
+学校办公室
+23
+15
+后勤保障处
+23
+16
+党委组织部
+20
+17
+学生工作处
+​
+18
+人力资源处
+17
+19
+招生与就业指导处
+17
+20
+体育美育工作部
+17
+21
+财务处
+16
+22
+教务处
+16
+23
+职业教育研究院
+14
+24
+校产管理处
+14
+25
+马克思主义学院
+14
+26
+继续教育与培训处
+13
+27
+双创教育协同中心
+13
+28
+纪委办公室
+11
+29
+工会
+11
+30
+科教园区
+10
+31
+质量管理与教学督导处
+10
+32
+对外合作与交流处
+9
+33
+图书馆
+8
+34
+合作发展处
+7
+35
+信息化（网络安全）办公室
+7
+36
+保卫处
+7
+37
+科研与技术服务处
+6
+38
+离退休工作处
+5
+39
+审计处
+4
+
+40
+校园建设处
+4
+
+说明：统计起止时间：
+2020
+年
+1
+月
+1
+日至
+12
+月31日
+（不含外媒报道稿件）
+
+
+
+
+
+
+
+
+
+返回主页
+
+
+
+
+版权所有：武汉职业技术学院      学校地址：湖北省武汉市洪山区关山大道463号
+
+校办电话：027-87766779        027-87766773       招生专线：027-87766666     就业专线：027-87766663
+
+新闻热线：027-87763769        投稿邮箱：
+wtcxcb@126.com
+
+鄂ICP备14001469-1        鄂公网安备 42011102000071号
+
+
+
+

@@ -1,0 +1,141 @@
+关于NSA漏洞“勒索病毒”攻击处置办法说明
+上周五（
+2017
+年
+5
+月
+12
+日）全球爆发大规模的勒索病毒攻击，各学校网络为重灾区，这款勒索病毒会引诱你点击看似正常的邮件、附件或文件，病毒会将用户电脑锁死，破坏文件并修改用户桌面背景，弹出提示框告知交纳
+“
+赎金
+”
+。
+感染“勒索病毒”的状况：
+1.
+桌面及各文件夹出现未知文件（请勿打开此类文件）；
+2.
+PC
+中的文件被加密，被加密的文件后缀名被统一为“
+.WNCRY”
+3.
+PC
+弹出对话框要求支付比特币赎金后才能恢复等说明。
+为保证各教职工的电脑文件安全，以及避免已中毒用户感染局域网中其他主机，以下为针对此次攻击的处置办法说明：
+1.
+开机前拔掉网线
+，暂时隔离各主机网络；
+2.
+判断电脑是否感染“勒索病毒”，
+如果发现已被感染，不要尝试插网线或者
+U
+盘！并立即通知信息化办公室
+87767871
+；
+3.
+如未发现感染迹象，先将电脑中重要的文件备份到安全的
+U
+盘或移动硬盘！不要点开可疑的邮件和文件，浏览可疑的网页。
+4.
+使用安全的电脑下载对应操作系统的
+NSA
+漏洞补丁到安全的
+U
+盘；
+5.
+通过
+U
+盘拷贝到电脑，安装对应操作系统的
+NSA
+漏洞补丁；
+6.
+恢复网络。
+附：
+补丁包下载地址
+个人
+PC
+：
+WindowsXP sp3
+（
+32
+位）
+http://download.windowsupdate.com/d/csa/csa/secu/2017/02/windowsxp-kb4012598-x86-custom-enu_eceb7d5023bbb23c0dc633e46b9c2f14fa6ee9dd.exe
+Windows
+7
+（
+64
+位）
+http://download.windowsupdate.com/d/msdownload/update/software/secu/2017/02/windows6.1-kb4012212-x64_2decefaa02e2058dcd965702509a992d8c4e92b3.msu
+Windows
+7
+（
+32
+位）
+http://download.windowsupdate.com/d/msdownload/update/software/secu/2017/02/windows6.1-kb4012212-x86_6bb04d3971bb58ae4bac44219e7169812914df3f.msu
+windows8
+（
+64
+位）
+http://download.windowsupdate.com/c/msdownload/update/software/secu/2017/02/windows8-rt-kb4012214-x64_b14951d29cb4fd880948f5204d54721e64c9942b.msu
+Windows8
+（
+32
+位）
+http://download.windowsupdate.com/c/msdownload/update/software/secu/2017/05/windows8-rt-kb4012598-x86_a0f1c953a24dd042acc540c59b339f55fb18f594.msu
+windows 8.1
+（
+64
+位）
+http://download.windowsupdate.com/c/msdownload/update/software/secu/2017/02/windows8.1-kb4012213-x64_5b24b9ca5a123a844ed793e0f2be974148520349.msu
+windows 8.1
+（
+32
+位）
+http://download.windowsupdate.com/d/msdownload/update/software/secu/2017/02/windows6.0-kb4012598-x86_13e9b3d77ba5599764c296075a796c16a85c745c.msu
+Windows 10    1607
+版本（
+64
+位）
+http://download.windowsupdate.com/c/msdownload/update/software/secu/2017/03/windows10.0-kb4013429-x64_delta_24521980a64972e99692997216f9d2cf73803b37.msu
+Windows 10   1607
+版本（
+32
+位）
+http://download.windowsupdate.com/c/msdownload/update/software/secu/2017/03/windows10.0-kb4013429-x86_delta_13d776b4b814fcc39e483713ad012070466a950b.msu
+Windows
+服务器：
+Windows servers 2003 sp2
+（
+64
+位）
+http://download.windowsupdate.com/d/csa/csa/secu/2017/02/windowsserver2003-kb4012598-x64-custom-enu_f24d8723f246145524b9030e4752c96430981211.exe
+Windows servers 2003 sp2
+（
+32
+位）
+http://download.windowsupdate.com/c/csa/csa/secu/2017/02/windowsserver2003-kb4012598-x86-custom-enu_f617caf6e7ee6f43abe4b386cb1d26b3318693cf.exe
+Windows Server 2008 R2
+（
+64
+位）
+http://download.windowsupdate.com/d/msdownload/update/software/secu/2017/02/windows6.1-kb4012212-x64_2decefaa02e2058dcd965702509a992d8c4e92b3.msu
+Windows Server 2008
+（
+64
+位）
+http://download.windowsupdate.com/d/msdownload/update/software/secu/2017/02/windows6.0-kb4012598-x64_6a186ba2b2b98b2144b50f88baf33a5fa53b5d76.msu
+windows Server 2008
+（
+32
+位）
+http://download.windowsupdate.com/d/msdownload/update/software/secu/2017/02/windows6.0-kb4012598-x86_13e9b3d77ba5599764c296075a796c16a85c745c.msu
+Windows Server 2012
+http://download.windowsupdate.com/c/msdownload/update/software/secu/2017/02/windows8-rt-kb4012214-x64_b14951d29cb4fd880948f5204d54721e64c9942b.msu
+Windows Server 2012 R2
+http://download.windowsupdate.com/c/msdownload/update/software/secu/2017/02/windows8.1-kb4012213-x64_5b24b9ca5a123a844ed793e0f2be974148520349.msu
+Windows Server 2016
+（
+64
+位）
+http://download.windowsupdate.com/c/msdownload/update/software/secu/2017/03/windows10.0-kb4013429-x64_delta_24521980a64972e99692997216f9d2cf73803b37.msu
+信息化办公室
+2017年5月15日

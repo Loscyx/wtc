@@ -1,0 +1,171 @@
+Python小技巧
+字典
+与字典相关的
+2
+个操作，介绍如下
+;
+
+1.
+合并两个或多个字典
+假设我们有两个或多个字典，并且我们希望将它们全部合并为一个具有唯一键的字典。
+
+from collections import defaultdict
+
+def merge_dicts(*dicts):
+mdict = defaultdict(list)
+for dict in dicts:
+for key in dict:
+res[key].append(d[key])
+return dict(mdict)
+2.
+反转字典
+一个非常常见的字典任务是如果我们有一个字典并且想要反转它的键和值。因此，键将成为值，而值将成为键。当我们这样做时，我们需要确保我没有重复的键，值可以重复，但键不能，并确保所有新键都是可散列的。
+
+my_dict = {
+brand: Ford,
+model: Mustang,
+year: 1964
+}
+#
+方法一
+my_inverted_dict_1 = dict(map(reversed, my_dict.items()))
+
+#
+方法二
+from collections import defaultdict
+my_inverted_dict_2 = defaultdict(list)
+{my_inverted_dict_2[v].append(k) for k, v in my_dict.items()}
+
+print(my_inverted_dict_1)
+print(my_inverted_dict_2)
+结果如下：
+
+字符串
+与字符串相关的
+3
+个操作，介绍如下
+;
+
+3.
+使用
+f
+字符串格式化字符串
+可能是您几乎每天都需要完成的第一项任务。在
+Python
+中有多种方法可以格式化字符串
+;
+我最喜欢的是使用
+f
+字符串。
+
+str_val = 'books'
+num_val = 15
+print(f'{num_val} {str_val}')
+
+print(f'{num_val % 2 = }')
+
+print(f'{str_val!r}')
+
+
+price_val = 5.18362
+print(f'{price_val:.2f}')
+
+
+from datetime import datetime;
+date_val = datetime.utcnow()
+print(f'{date_val=:%Y-%m-%d}')
+
+结果如下：
+
+4.
+检查子串
+我之前需要多次执行的一项非常常见的任务是，检查字符串是否在字符串列表中。
+
+addresses = [123 Elm Street, 531 Oak Street, 678 Maple Street]
+street = Elm Street
+
+#
+方法一
+for address in addresses:
+if address.find(street) >= 0:
+print(address)
+
+#
+方法二
+for address in addresses:
+if street in address:
+print(address)
+结果如下：
+
+5.
+以字节为单位获取字符串的大小
+有时，尤其是在构建内存关键应用程序时，我们需要知道我们的字符串使用了多少内存。幸运的是，这可以通过一行代码快速完成。
+
+str1 = hello
+str2 = 
+
+def str_size(s):
+return len(s.encode('utf-8'))
+
+print(str_size(str1))
+print(str_size(str2))
+结果如下：
+
+输入
+/
+输出操作
+与输入
+/
+输出操作相关的
+2
+个操作，介绍如下
+;
+
+6.
+检查文件是否存在
+在数据科学和许多其他应用程序中，我们经常需要从文件中读取数据或向其中写入数据。但要做到这一点，我们需要检查文件是否存在。因此，我们的代码不会因错误而终止。
+
+#
+方法一
+import os
+
+exists = os.path.isfile('/path/to/file')
+
+#
+方法二
+from pathlib import Path
+config = Path('/path/to/file')
+
+if config.is_file():
+
+pass
+7.
+解析电子表格
+另一种非常常见的文件交互是从电子表格中解析数据。幸运的是，我们有
+CSV
+模块来帮助我们有效地执行该任务。
+
+import csv
+csv_mapping_list = []
+with open(/path/to/data.csv) as my_data:
+csv_reader = csv.reader(my_data, delimiter=,)
+line_count = 0
+for line in csv_reader:
+if line_count == 0:
+header = line
+else:
+row_dict = {key: value for key, value in zip(header, line)}
+
+csv_mapping_list.append(row_dict)
+line_count += 1
+————————————————
+版权声明：本文为
+CSDN
+博主「程序猿
+-
+小菜」的原创文章，遵循
+CC 4.0 BY-SA
+版权协议，转载请附上原文出处链接及本声明。
+原文链接：
+https://blog.csdn.net/m0_61655732/article/details/120636340
+
